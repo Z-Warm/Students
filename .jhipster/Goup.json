@@ -1,0 +1,23 @@
+{
+  "fluentMethods": true,
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "relationshipValidateRules": "required",
+      "relationshipName": "student",
+      "otherEntityName": "student",
+      "otherEntityRelationshipName": "goup"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "groupName",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20170415143715",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "entityTableName": "goup"
+}

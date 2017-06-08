@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_4B3UMCHoEeetvftUuyyMHg" name="testproject1">
+  <eAnnotations xmi:id="_4B37QCHoEeetvftUuyyMHg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_4B37QSHoEeetvftUuyyMHg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_4B4iUCHoEeetvftUuyyMHg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4B4iUSHoEeetvftUuyyMHg" name="Goup" isLeaf="true">
+    <ownedAttribute xmi:id="_4B4iUiHoEeetvftUuyyMHg" name="student" visibility="public" type="_4B4iWCHoEeetvftUuyyMHg" aggregation="shared" association="_4B4iViHoEeetvftUuyyMHg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4B4iUyHoEeetvftUuyyMHg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4B4iVCHoEeetvftUuyyMHg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_4B4iVSHoEeetvftUuyyMHg" name="GroupName" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4B4iViHoEeetvftUuyyMHg" memberEnd="_4B4iUiHoEeetvftUuyyMHg _4B4iVyHoEeetvftUuyyMHg">
+    <ownedEnd xmi:id="_4B4iVyHoEeetvftUuyyMHg" visibility="public" type="_4B4iUSHoEeetvftUuyyMHg" association="_4B4iViHoEeetvftUuyyMHg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4B4iWCHoEeetvftUuyyMHg" name="Student">
+    <ownedAttribute xmi:id="_4B4iWSHoEeetvftUuyyMHg" name="StudentName" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Model>

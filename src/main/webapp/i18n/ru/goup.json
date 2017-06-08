@@ -1,0 +1,23 @@
+{
+    "studentsApp": {
+        "goup" : {
+            "home": {
+                "title": "Goups",
+                "createLabel": "Создать новый Goup",
+                "createOrEditLabel": "Создать или отредактировать Goup",
+                "search": "Найти Goup"
+            },
+            "created": "Новый Goup создан с идентификатором {{ param }}",
+            "updated": "Goup обновлен с идентификатором {{ param }}",
+            "deleted": "Goup удален с идентификатором {{ param }}",
+            "delete": {
+                "question": "Вы уверены что хотите удалить Goup {{ id }}?"
+            },
+            "detail": {
+                "title": "Goup"
+            },
+            "groupName": "Group Name",
+            "student": "Student"
+        }
+    }
+}

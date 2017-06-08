@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Y6uZsCG_EeekQqvu87eC_Q" name="testproject1">
+  <eAnnotations xmi:id="_Y6uZsSG_EeekQqvu87eC_Q" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Y6uZsiG_EeekQqvu87eC_Q" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y6uZsyG_EeekQqvu87eC_Q" value="3.0.0"/>
+    </contents>
+    <contents xmi:type="uml:Property" xmi:id="_Y6uZtCG_EeekQqvu87eC_Q" name="isRoundTrip"/>
+    <contents xmi:type="uml:Property" xmi:id="_Y6uZtSG_EeekQqvu87eC_Q" name="Visibility">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y6uZtiG_EeekQqvu87eC_Q" value="0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Y6uZtyG_EeekQqvu87eC_Q" name="Students">
+    <eAnnotations xmi:id="_Y6uZuCG_EeekQqvu87eC_Q" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_Y6uZuSG_EeekQqvu87eC_Q" name="Visibility">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y6uZuiG_EeekQqvu87eC_Q" value="0"/>
+      </contents>
+    </eAnnotations>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_Y6uZuyG_EeekQqvu87eC_Q" name="Students">
+      <eAnnotations xmi:id="_Y6uZvCG_EeekQqvu87eC_Q" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_Y6uZvSG_EeekQqvu87eC_Q" name="Visibility">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y6uZviG_EeekQqvu87eC_Q" value="0"/>
+        </contents>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_Y6uZvyG_EeekQqvu87eC_Q" name="studentID" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_Y6uZwCG_EeekQqvu87eC_Q" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_Y6uZwSG_EeekQqvu87eC_Q" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y6uZwiG_EeekQqvu87eC_Q" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_Y6uZwyG_EeekQqvu87eC_Q" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y6uZxCG_EeekQqvu87eC_Q" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_Y6uZxSG_EeekQqvu87eC_Q">
+          <eAnnotations xmi:id="_Y6uZxiG_EeekQqvu87eC_Q" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_Y6uZxyG_EeekQqvu87eC_Q" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y6uZyCG_EeekQqvu87eC_Q" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>&lt;Enter note text here></body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Y6uZySG_EeekQqvu87eC_Q" name="studentName" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_Y6uZyiG_EeekQqvu87eC_Q" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_Y6uZyyG_EeekQqvu87eC_Q" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y6uZzCG_EeekQqvu87eC_Q" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_Y6uZzSG_EeekQqvu87eC_Q" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y6uZziG_EeekQqvu87eC_Q" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_Y6uZzyG_EeekQqvu87eC_Q">
+          <eAnnotations xmi:id="_Y6uZ0CG_EeekQqvu87eC_Q" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_Y6uZ0SG_EeekQqvu87eC_Q" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y6uZ0iG_EeekQqvu87eC_Q" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>&lt;Enter note text here></body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Y6uZ0yG_EeekQqvu87eC_Q" name="groupID" visibility="public" isUnique="false">
+        <eAnnotations xmi:id="_Y6uZ1CG_EeekQqvu87eC_Q" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_Y6uZ1SG_EeekQqvu87eC_Q" name="Visibility">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y6uZ1iG_EeekQqvu87eC_Q" value="0"/>
+          </contents>
+          <contents xmi:type="uml:Property" xmi:id="_Y6uZ1yG_EeekQqvu87eC_Q" name="AccessMode">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y6uZ2CG_EeekQqvu87eC_Q" value="read_write"/>
+          </contents>
+        </eAnnotations>
+        <ownedComment xmi:id="_Y6uZ2SG_EeekQqvu87eC_Q">
+          <eAnnotations xmi:id="_Y6uZ2iG_EeekQqvu87eC_Q" source="Objing">
+            <contents xmi:type="uml:Property" xmi:id="_Y6uZ2yG_EeekQqvu87eC_Q" name="NoteType_Name">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y6uZ3CG_EeekQqvu87eC_Q" value="description"/>
+            </contents>
+          </eAnnotations>
+          <body>&lt;Enter note text here></body>
+        </ownedComment>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </nestedClassifier>
+  </packagedElement>
+</uml:Model>

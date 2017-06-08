@@ -1,0 +1,22 @@
+{
+  "fluentMethods": true,
+  "relationships": [
+    {
+      "relationshipName": "goup",
+      "otherEntityName": "goup",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "studentName",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20170415143716",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "entityTableName": "student"
+}
